@@ -8,7 +8,7 @@ class Sensu < Formula
   depends_on "ruby"
 
   def install
-    system "gem", "install", "sensu", "--version=#{version}"
-    system "cp", "-r", "*", "#{prefix}/"
+    system "gem", "install", "sensu", "--version=#{version}", "--no-rdoc", "--no-ri"
+    system "cp", "-r", "bin", "#{prefix}/"
   end
 end
