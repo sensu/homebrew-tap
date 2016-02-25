@@ -5,7 +5,7 @@ class Sensu < Formula
   version "0.22.0"
   sha256 "a6c1e7d2a815a19b38dcd1bd3071956ec06290f8da52aa2591897bff0281af3b"
 
-  depends_on "ruby"
+  depends_on "ruby" => "universal"
 
   def install
     system "gem", "install", "sensu", "--version=#{version}", "--no-rdoc", "--no-ri"
