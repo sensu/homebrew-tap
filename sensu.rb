@@ -5,6 +5,11 @@ class Sensu < Formula
   version "0.22.0"
   sha256 "a6c1e7d2a815a19b38dcd1bd3071956ec06290f8da52aa2591897bff0281af3b"
 
+  depends_on "openssl" => "universal"
+  depends_on "readline"
+  depends_on "gmp"
+  depends_on "libffi"
+  depends_on "libyaml" => "universal"
   depends_on "ruby" => "universal"
 
   def install
