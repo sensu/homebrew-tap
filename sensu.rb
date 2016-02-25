@@ -7,7 +7,6 @@ class Sensu < Formula
 
   depends_on "openssl" => "universal"
   depends_on "readline"
-  depends_on "gmp"
   depends_on "libffi"
   depends_on "libyaml" => "universal"
   depends_on "ruby" => "universal"
