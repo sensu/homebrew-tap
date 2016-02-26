@@ -1,9 +1,9 @@
 class Sensu < Formula
   desc "A monitoring framework that aims to be simple, malleable, and scalable."
   homepage "https://sensuapp.org"
-  url "https://github.com/sensu/sensu-homebrew/archive/0.0.10.tar.gz"
+  url "https://github.com/sensu/sensu-homebrew/archive/0.0.11.tar.gz"
   version "0.22.0"
-  sha256 "f91075ca7c8a58d8ec33c344d56bc11d2c98abfd1e78f1182088200085e71455"
+  sha256 "c5c29cd110d47300f7e3f15350385faf79e518ddd296deb9be1a99dd5efec4de"
 
   depends_on "openssl" => "universal"
   depends_on "readline"
