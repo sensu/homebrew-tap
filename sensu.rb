@@ -12,6 +12,7 @@ class Sensu < Formula
   depends_on "ruby" => "universal"
 
   def install
+    system "gem", "install", "--system"
     system "gem", "install", "sensu", "--version=#{version}", "--no-rdoc", "--no-ri"
     system "cp", "-r", "bin", "#{prefix}/"
     system "cp", "-r", "Library", "#{prefix}/"
