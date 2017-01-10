@@ -9,7 +9,7 @@ class Sensu < Formula
   depends_on "readline"
   depends_on "libffi"
   depends_on "libyaml" => "universal"
-  depends_on "ruby" => "universal"
+  depends_on "homebrew/versions/ruby23" => "universal"
 
   def install
     system "gem", "update", "--system"
